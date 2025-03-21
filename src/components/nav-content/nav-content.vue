@@ -35,7 +35,7 @@
       <el-icon v-else class="fold-icon" @click="onFoldNav">
         <IEpDArrowLeft />
       </el-icon>
-      <site-count class="site-count" :showPV="true" :showUV="true" />
+      <site-count class="site-count" :showPV="false" :showUV="false" />
     </div>
   </aside>
 </template>
